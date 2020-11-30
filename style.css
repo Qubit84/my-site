@@ -30,9 +30,11 @@ body {
 }
 
 .main-menu {
+  float: right;
+  margin-right: 50px;
   margin-top: -18px;
   padding: 0px;
-  position: absolute;
+  position: relative;
 }
 
 .main-menu ul{
@@ -54,12 +56,13 @@ body {
   padding: 10px;
   margin-left: 70px;
   color: #f2f4f6;
+  transition: 1s;
 }
 
 .main-menu li a:hover {
   background-color:rgba(255, 255, 255, 0.884);;
   color: #222222;
-  transition: 1s;
+  
 }
 
 .header-email {
